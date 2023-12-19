@@ -1,0 +1,66 @@
+# 忽略 Visual Studio 临时文件和文件夹
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# 忽略所有的nuget包
+**/packages/*
+
+# 忽略生成的DLL和PDB文件以及其他编译产物
+bin/
+obj/
+
+# 忽略NuGet图形包缓存，它可能存在于解决方案文件夹中
+.nuget/
+
+# 忽略 VS Code 文件夹
+.vscode/
+
+# 忽略项目文件夹下的所有.sln文件，除了项目根目录下的
+**/*.sln
+!/*.sln
+
+# 忽略项目文件夹下的所有.csproj文件，除了项目根目录下的
+**/*.csproj
+!/*.csproj
+
+# 忽略所有.gitignore文件，除了项目根目录下的
+**/.gitignore
+!/.gitignore
+
+# 忽略所有的本地配置文件
+*.local
+
+# 忽略所有的日志文件
+*.log
+
+# 忽略OS生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 忽略重建状态文件
+*.restate
+
+# 忽略RID缓存
+.rid.cache
+
+# 忽略可能出现在根目录的测试结果文件
+TestResults
+
+# 忽略可能出现的性能测试跟踪文件
+*.etl
+*.etlx
+*.trace
+
+# 忽略可能出现的VS配置文件
+*.dotsettings
+*.vst
+*.vstscc
+*.vspscc
