@@ -53,6 +53,10 @@ git clone https://github.com/KeluIsAfkeru/FolderGraph.git
     └── File5.txt
 ```
 
+### 截图展示
+![JYQ7OT4FV@MVHK~FH{TR QF](https://github.com/KeluIsAfkeru/FolderGraph/assets/107661829/1cd6920c-7a94-4439-88e4-05f237c46dcd)
+
+
 ## ⚙️ 配置选项
 
 - **隐藏文件/文件夹**: 程序会询问是否包含隐藏的文件和文件夹。
